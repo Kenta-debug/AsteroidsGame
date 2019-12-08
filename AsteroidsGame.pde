@@ -25,10 +25,10 @@ public void keyPressed(){
      bob.accelerate(-1);
   }
   if(key == 'a'){
-     bob.turn(5);
+     bob.turn(-10);
   }
   if(key == 'd'){
-     bob.turn(-5);
+     bob.turn(10);
   }
   if(key == 'h'){
      bob.hyperspace();
